@@ -1,0 +1,500 @@
+
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0px;
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+}
+button{
+    width: 100px;
+    height:35px;
+    text-decoration: none;
+    border-style: none;
+    background-color: #00BCD4;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.home-button{
+    position: absolute;
+    top: 80px;
+    width: 50px;
+    height: 50px;
+    background-image: url('./images/Home.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    cursor: pointer;
+    right: 1.5%;
+    
+}
+
+.login-page{
+    margin: 0 auto;
+    position: absolute;
+    height: 80vh;
+    width: 98%;
+    background-image: url();
+    background-position-y: -200px;
+    background-size: flex;
+    background-repeat: no-repeat;
+    
+}
+
+
+.login-card{
+    position: relative;
+    margin:0 auto;
+    margin-top: 20%;
+    border-radius: 10px;
+    width: 300px;
+    height: 50vh;
+    box-shadow:0px 3px 5px rgba(0, 0, 0, 0.49); 
+    background: white;
+    border: .3px solid lightgray;
+}
+
+
+.login-logo{
+    left: 0;
+    background-image: url("./images/WorkflowLogoGraincorpside.png");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 200px;  
+    border-bottom: 1px solid lightgray;
+}
+
+
+.Login-form{ 
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+.Login-form input{ 
+    display: block;
+    width: 60%;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    text-align: center;
+    }
+
+.login-label{
+    padding-bottom: 10px;
+}
+
+.Login-form button{ 
+    display: block;
+    margin: 0 auto;
+}
+@media screen and (min-width:600px){
+    
+  .login-card{
+      display: inline-block;
+        margin-top: 15%;
+        border-radius: 10px;
+        width: 700px;
+        height: 200px;
+        box-shadow:0px 3px 5px rgba(0, 0, 0, 0.49); 
+}
+
+.delta-page{
+
+    padding-top: 12%;
+    width: 500px;
+    height: 500px;
+    max-width: 500px;
+    max-height: 500px;
+    margin: 0 auto;
+
+}
+
+.login-logo{
+    position: absolute;
+    margin: 0;
+    border: 0;
+    width: 300px;
+    height:200px;
+    border-right: 1px solid lightgray;
+    border-bottom: 0px;
+
+}
+.delta-icon-she{
+    position: relative;
+    background-image: url("./images/shemanager.png");
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 25px;
+    display: inline-block;
+    border-radius: 5px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    background-color: #464646;
+    box-shadow: 0 0 3px gray;
+    color: white;
+    border: solid 3px #8dc44e;
+}
+.delta-icon-she:after{
+    content: "SHE Manager";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    height: 0px;
+    color: #464646;
+    text-align: center;
+    font-size: .9em;
+}
+.checkbox-she{
+    position: relative;
+    left: 70px;
+    bottom: 25px;
+  width: 30px;
+  height: 30px;
+  background-image: url('./images/Check.png');
+  background-size: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.delta-icon-cluster{
+    border: solid 3px #8dc44e;
+    position: relative;
+    background-image: url("./images/cluster.png");
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 25px;
+    display: inline-block;
+    border-radius: 5%;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    background-color: #464646;
+    box-shadow: 0 0 3px gray;
+    color: white;
+}
+.delta-icon-cluster:after{
+    content: "Cluster Admin";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    height: 0px;
+    color: #464646;
+    text-align: center;
+    font-size: .9em;
+}
+.checkbox-cluster{
+    position: relative;
+    left: 70px;
+    bottom: 25px;
+  width: 30px;
+  height: 30px;
+  background-image: url('./images/Check.png');
+  background-size: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.delta-icon-hr{
+    position: relative;
+    background-image: url("./images/hr.png");
+    background-size: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 25px;
+    display: inline-block;
+    border-radius: 5%;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    background-color: #464646;
+    box-shadow: 0 0 3px gray;
+    color: white;
+}
+.delta-icon-hr:after{
+    content: "HR Partner";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    height: 0px;
+    color: #464646;
+    text-align: center;
+    font-size: .9em;
+}
+.delta-icon-trainer{
+    position: relative;
+    background-image: url("./images/trainer.png");
+    background-size: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 25px;
+    display: inline-block;
+    border-radius: 5%;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    background-color: #464646;
+    box-shadow: 0 0 3px gray;
+    color: white;
+}
+.delta-icon-trainer:after{
+    content: "Trainer";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    height: 0px;
+    color: #464646;
+    text-align: center;
+    font-size: .9em;
+}
+.delta-icon-assessor{
+    position: relative;
+    background-image: url("./images/shemanager.png");
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 25px;
+    display: inline-block;
+    border-radius: 5%;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    background-color: #464646;
+    box-shadow: 0 0 3px gray;
+    color: white;
+}
+.delta-icon-assessor:after{
+    content: "Assessor";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    height: 0px;
+    color: #464646;
+    text-align: center;
+    font-size: .9em;
+}
+.delta-icon-grain{
+    position: relative;
+    background-image: url("./images/harvest.png");
+    background-size: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 25px;
+    display: inline-block;
+    border-radius: 5%;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    background-color: #464646;
+    box-shadow: 0 0 3px gray;
+    color: white;
+}
+.delta-icon-grain:after{
+    content: "Grain Handler";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    height: 0px;
+    color: #464646;
+    text-align: center;
+    font-size: .9em;
+}
+
+.Login-form{ 
+margin-left: 300px;
+    position: relative;
+    display: inline-block;
+    width: 330px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 19px;
+    /* padding-bottom: 26px; */
+}
+.graincorp-icon{
+    display: inline-block;
+    margin: 0 auto;
+    background-image: url("./images/graincorp.svg");
+    background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 55px;
+    bottom: 12px;
+}
+.Login-form input{ 
+    margin-bottom: 20px;
+}
+
+.login-label{
+    padding-bottom: 10px;
+}
+.module-name{
+    font-size: 1.2em;
+    margin: auto;
+    text-align: center;
+    line-height: 40px;
+    width: 20%;
+    opacity: .75;
+    background-color: #464646;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    height: 40px;
+}
+
+}
+.SelectField{
+    position: absolute;
+    margin: 0 auto;
+    left: 40%;
+}
+.test{
+    position: absolute;
+    margin: 0 auto;
+    left: 44%;
+}
+.assess-select{
+    position: absolute;
+    margin: 0 auto;
+    max-width: 950px;
+    width: 950px;
+}
+.home-Container{
+    position: absolute;
+    left: 300px;
+    top: 10px;
+    width: 75%;
+    height: 98%;
+}
+.home-Container-Contents{
+    
+    width: 100%;
+    height: 90%;
+    padding: 10px;
+    margin: 0 auto;
+}
+.trainer-schedule-table{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 800px;
+}
+.cluster-card{
+   
+    position: absolute;
+    top: 100px;
+    width: 80%;
+    height: 80%;
+    bottom: 60px;
+    left: 10%;
+    background: white;
+    border: 1px solid lightgray;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow:0px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.cluster-card-header{
+    margin: 0 auto;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid lightgray;
+    color: #698088;
+    text-align: left;
+    line-height: 40px;
+    text-indent: 20px;
+    text-transform: uppercase;
+}
+.cluster-cards{
+    position: relative;
+    display: inline-block;
+    float: left;
+
+}
+
+.module-container{
+    display: inline-block;
+    position: absolute;
+    width: 25%;
+    height: 92.5%;
+    top: 7%;
+    left: 1px;
+    background-color: white;
+    border: 1px solid lightgray;
+    box-shadow:0px 3px 5px rgba(0, 0, 0, 0.49); 
+}
+
+.card-button:hover{
+    background-size: 200px;
+    background-position: center;
+    background-color: #DCDCDC;
+}
+.card-button{
+    margin-top: 5px;
+    display: inline-block;
+    cursor: pointer;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    background-color: white;
+    color: black;
+    width: 75%;
+    height: 200px;
+    border-radius: 1px;
+    box-shadow:0px 3px 5px rgba(0, 0, 0, 0.2); 
+}
+.module-drawer-header{
+    
+    line-height: 40px;
+    font-size: 1.9em;
+    height: 50px;
+    }
+    .module-drawer-card-header{
+    line-height: 55px;
+    font-size: 1.5em;
+    height: 45px;
+    }
+/*.card-image{
+        position: absolute;
+        background-color: RED;
+        width: 75px;
+        height: 100px;
+      background-image: url('./images/test.jpg');
+      background-size: 75px; 
+      background-position: s; 
+}*/
+.card-image:hover{
+     background-image: url('./images/download.jpg');
+    background-size: 200px;
+    background-position: center;
+    background-color: #63656b;
+}
+/*Animations*/
+
+
